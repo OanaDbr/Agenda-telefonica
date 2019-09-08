@@ -1,0 +1,62 @@
+body, html {
+	background-color: #fef8e1;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main {
+	text-align: center;
+	background-color: #ffca28;
+	width: 750 px;
+	margin: auto;
+	padding: 25px;
+}
+
+.afisare {
+	text-align: center;
+	background-color: #ffca28;
+	width: 750 px;
+	padding: 25 px;
+	margin: auto;
+	margin-top: 25 px;
+}
+
+#adaugaContact {
+	margin-top: 25px;
+}
+
+#butonAdaugaContact {
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.editeaza, .sterge {
+	background-color: #adff2f;
+	color: black;
+}
+
+
+table {
+	margin: auto;
+	width: 100%;
+}
+
+input[type="text"],
+input[type="number"] {
+border-radius: 7px;
+padding: 7px;
+margin: 5px;
+}
+
+#rezultat {
+	margin: auto;
+	width: 100%;
+}

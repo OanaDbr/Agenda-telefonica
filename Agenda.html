@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda Telefonica</title>
+	<link rel="stylesheet" type="text/css" href="Agenda.css">
+	<script type="text/javascript" src="Agenda.js"></script>
+</head>
+<body>
+<h1>Agenda Telefonica</h1>
+<div class="main">
+	<div>
+		<form id="formular" onsubmit="adauga(event)">
+		<label>Nume:<input required="required" type="text"  name="nume"></label>
+		<label>Numar de telefon:<input required="required"  type="number" name="telefon" placeholder="07..."></label> </br>
+		<div id="adaugaContact">
+			<input type="submit" name="Adauga" value="Adauga Contact" id="butonAdaugaContact">
+		</div>
+	</div>
+</div>
+
+<div class="hidden">
+	<table>
+		<thead>
+			<tr>
+				<th>Nume</th>
+				<th>Numar de telefon</th>
+			</tr>
+		</thead>
+		<tbody id="rezultat"></tbody>
+	</table>
+</div>
+</form>
+</body>
+</html>
